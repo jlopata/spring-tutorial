@@ -5,7 +5,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.acme.order.Customer;
 import com.acme.order.pizza.PizzaOrderService;
-import com.acme.order.pizza.PizzaOrderServiceImpl;
 import com.acme.order.pizza.PizzaType;
 
 import lombok.extern.slf4j.Slf4j;

@@ -2,8 +2,11 @@ package com.acme.order;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.acme.order.pizza.PizzaOrder;
 
+@Component
 public interface OrderRepository {
 
 	String save(PizzaOrder order);
